@@ -1,0 +1,9 @@
+# Core skills for the Knowledge Bot archetype.
+
+slack-respond
+slack-poller
+telegram-delegate
+google-doc-report
+google-sheets
+find-skills
+prompt-injection-guard

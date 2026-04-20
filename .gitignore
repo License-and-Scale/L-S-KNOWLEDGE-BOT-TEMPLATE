@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+openclaw.json
+.claude-flow/
+.claude/
+.agent/
+node_modules/
+.DS_Store
