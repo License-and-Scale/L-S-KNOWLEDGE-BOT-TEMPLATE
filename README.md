@@ -8,6 +8,18 @@ agent archetypes.
 
 ---
 
+## Just want the prompt?
+
+Open [`SYSTEM-PROMPT.md`](SYSTEM-PROMPT.md) and paste the whole file as the
+system prompt for your Claude project, Claude Code agent, OpenClaw profile,
+or any LLM tool that accepts a custom system prompt. Edit the `{placeholder}`
+fields to match your business. That's the entire setup.
+
+The longer "Quick start" below covers the OpenClaw CLI path with Telegram +
+gateway wiring.
+
+---
+
 ## Quick start
 
 1. Click **"Use this template"** (top right) to create your own copy.
@@ -48,6 +60,7 @@ agent archetypes.
 | File | What it is |
 |------|------------|
 | `IDENTITY.md` | Fill-in-the-blank role spec — edit after cloning |
+| `SYSTEM-PROMPT.md` | Concatenated IDENTITY + framework, ready to paste into Claude |
 | `skills.txt` | Recommended OpenClaw skills for this role |
 | `openclaw.json.template` | Config skeleton using `${ENV_VAR}` placeholders |
 | `scripts/render-config.sh` | Substitutes env vars into the template |

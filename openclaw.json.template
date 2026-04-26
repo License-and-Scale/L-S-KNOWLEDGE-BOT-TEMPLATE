@@ -14,8 +14,9 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "anthropic/claude-sonnet-4-6",
+        "primary": "anthropic/claude-opus-4-7",
         "fallbacks": [
+          "anthropic/claude-sonnet-4-6",
           "anthropic/claude-haiku-4-5",
           "zai/glm-5.1"
         ]
@@ -64,8 +65,12 @@
     "telegram": {
       "enabled": true,
       "botToken": "${TELEGRAM_BOT_TOKEN}",
-      "allowFrom": ["${OWNER_TG_USER_ID}"],
-      "groupAllowFrom": ["${OWNER_TG_USER_ID}"]
+      "allowFrom": [
+        "${OWNER_TG_USER_ID}"
+      ],
+      "groupAllowFrom": [
+        "${OWNER_TG_USER_ID}"
+      ]
     }
   },
   "tools": {
